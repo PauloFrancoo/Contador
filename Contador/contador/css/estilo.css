@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(177, 225, 255);
+}
+
+button {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    border: 5px solid rgb(80, 9, 247);
+    background-color: rgb(241, 214, 214);
+    color: lightcoral;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+  
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 150pt;
+    font-weight: bold;
+}
+button .sinal{
+    font-size: 150px;
+    margin-top: -50px;
+}
+.titulo{
+    font-size: 100px;
+}
+.descricao{
+    font-size: 50px;
+    color: blue;
+    font-weight: bold;
+}
